@@ -23,4 +23,4 @@ app.use("/api/events", eventRoute)
 
 
 
-app.listen(process.env.PORT||8080, _=> console.log("backend server is running on port: "+ process.env.PORT))
+app.listen(process.env.PORT||3000, _=> console.log("backend server is running on port: "+ process.env.PORT))
